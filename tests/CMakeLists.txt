@@ -30,4 +30,4 @@ if (CMAKE_VERSION VERSION_LESS 2.8.11)
   include_directories("${gtest_SOURCE_DIR}/include")
 endif()
 
-add_gtest(example_test test.cpp)
+add_gtest(byte_buffer_test byte_buffer_test.cpp)
